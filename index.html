@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutina de Ejercicios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .menu-button {
+            display: block;
+            width: 250px;
+            padding: 15px;
+            margin: 15px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .menu-button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rutina de Ejercicios</h1>
+        <button class="menu-button" onclick="location.href='pecho-espalda.html'">PECHO - ESPALDA</button>
+        <button class="menu-button" onclick="location.href='bicep-tricep-hombro.html'">BICEP - TRICEP - HOMBRO</button>
+        <button class="menu-button" onclick="location.href='pierna.html'">PIERNA</button>
+    </div>
+</body>
+</html>
